@@ -18,6 +18,7 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 scoop bucket add main
 scoop bucket add extras
 scoop bucket add versions
+scoop bucket add nerd-fonts
 
 scoop install main/vim
 scoop install main/neovim
@@ -26,6 +27,7 @@ scoop install main/starship
 scoop install extras/komorebi
 scoop install extras/whkd
 scoop install versions/mingw-winlibs-llvm
+scoop install nerd-fonts/Hasklig-NF-Mono
 ```
 
 ```shell
