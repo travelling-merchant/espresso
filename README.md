@@ -32,6 +32,7 @@ scoop install nerd-fonts/Hasklig-NF-Mono
 
 ```shell
 mkdir ~\Documents\WindowsPowerShell
+ $ENV:STARSHIP_CONFIG = "$HOME\espresso\shell\starship.toml"
 ```
 
 ```cmd
