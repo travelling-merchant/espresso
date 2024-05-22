@@ -3,6 +3,10 @@ horrible, horrific, bill gates os dotfiles
 
 ## Software to install
 
+windows sucks at the end I still had to install a lot of 
+visual studio developing kits to get all other things to work,
+pay special attention to all the c++ dev kits
+
 ### scoop package manager
 
 to install the scoop package manager visit scoop.sh or use following command.
@@ -20,6 +24,7 @@ scoop bucket add extras
 scoop bucket add versions
 scoop bucket add nerd-fonts
 
+scoop install versions/firefox-developer
 scoop install main/vim
 scoop install main/neovim
 scoop install extras/obsidian
@@ -28,11 +33,14 @@ scoop install extras/komorebi
 scoop install extras/whkd
 scoop install versions/mingw-winlibs-llvm
 scoop install nerd-fonts/Hasklig-NF-Mono
+scoop install extras/onefetch
+scoop install extras/draw.io
+scoop install main/cpufetch
 ```
 
 ```shell
 mkdir ~\Documents\WindowsPowerShell
- $ENV:STARSHIP_CONFIG = "$HOME\espresso\shell\starship.toml"
+neofetch --gen-config
 ```
 
 ```cmd
