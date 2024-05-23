@@ -45,4 +45,6 @@ neofetch --gen-config
 
 ```cmd
 mklink "%UserProfile%\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1" "%UserProfile%\espresso\shell\Microsoft.PowerShell_profile.ps1"
+mklink "%UserProfile%\.config\fastfetch\fastfetch.jsonc" "%UserProfile%\espresso\fastfetch\fastfetch.jsonc"
 ```
+
