@@ -23,6 +23,7 @@ scoop bucket add main
 scoop bucket add extras
 scoop bucket add versions
 scoop bucket add nerd-fonts
+scoop bucket add nonportable
 
 scoop install versions/firefox-developer
 scoop install main/vim
@@ -32,15 +33,18 @@ scoop install main/starship
 scoop install extras/komorebi
 scoop install extras/whkd
 scoop install versions/mingw-winlibs-llvm
-scoop install nerd-fonts/Hasklig-NF-Mono
+scoop install nerd-fonts/Lekton-NF
 scoop install extras/onefetch
 scoop install extras/draw.io
+scoop install main/fastfetch
 scoop install main/cpufetch
+scoop install nonportable/sql-server-management-studio-np
 ```
 
 ```shell
 mkdir ~\Documents\WindowsPowerShell
-neofetch --gen-config
+mkdir ~\.config\fastfetch
+//fastfetch --gen-config
 ```
 
 ```cmd
